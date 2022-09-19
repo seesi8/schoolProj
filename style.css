@@ -24,14 +24,14 @@ html {
     height: fit-content;
 }
 
-.column2{
+.column2 {
     margin-top: 15rem;
     border-radius: 1rem;
     background-color: green;
     font-size: 2rem;
 }
 
-.column3{
+.column3 {
     border-radius: 1rem;
     padding-left: 1rem;
     background-color: palevioletred;
@@ -46,40 +46,40 @@ html {
     font-size: 2rem;
 }
 
-.hobbies{
+.hobbies {
     margin: 1rem;
 }
 
-.hobbieItem{
+.hobbieItem {
     margin-left: 2rem;
 }
 
-.lastly{
+.lastly {
     margin-left: 3.5rem;
 }
 
-.lane{
+.lane {
     margin: 0;
 }
 
-.teachers{
+.teachers {
     margin: 0;
 }
 
-.laneBody{
+.laneBody {
     margin: .5;
     margin-top: .2;
 }
 
-.sam{
+.sam {
     color: black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: 0;
     font-size: 20vh;
 }
 
-.page2{
+.page2 {
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
@@ -89,34 +89,48 @@ html {
     background-color: white;
 }
 
-.page2Container{
+.page2Container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.mainbody{
+.mainbody {
     margin: 1rem;
     font-size: 2vh;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.page2Title{
+.page2Title {
     margin: 1rem;
     font-size: 5vh;
 }
 
-.back{
+.back {
     width: 80%;
     height: 30vh;
 }
 
-.back{
+.back {
     font-size: 25vh;
     text-align: center;
 }
 
-.backContainer{
+.backContainer {
     align-items: center;
     height: 40vh;
+}
+
+@media only screen and (max-width: 1111px) {
+    .container {
+        display: inherit;
+    }
+
+    .sam {
+        font-size: 20vw;
+    }
+
+    .column2 {
+        margin-top: 0rem;
+    }
 }
